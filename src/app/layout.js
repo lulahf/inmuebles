@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
         <div className='contenedor'>
           <div className='word'>
         <h1>
+          1
         Bienvenidos a Inmuebles y mas donde ofrecemos los mejores servicios a la hora de adquirir inmuebles y automoviles.
         </h1>
           <span className='span'>
