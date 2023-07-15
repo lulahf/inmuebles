@@ -1,0 +1,50 @@
+.content {
+    background:linear-gradient(#64748b59,#64748b,#dce0e6c7),#64748b;
+    font-family: Playfair Display,serif;
+    
+}
+.beneContent div{
+    margin: 1em 0;
+    padding: 0 8em;
+    line-height: 1.5;
+    font-size: 1.2em;
+    text-align: justify;
+}
+.beneContent h1 {
+    font-weight: 500;
+    font-size: 2.8em;
+    margin-top: 1em;
+    text-align: center;
+
+}
+.beneContenedor {
+    display: flex;
+    color: aliceblue;
+    
+}
+.beneficios {
+    max-width: 100%;
+    border-radius: 50%;
+    height: 25em;
+    width: 25em;
+    margin: 2em;
+}
+.registro {
+    background-color: #1890ff;
+    border-radius: 1.6em;
+    padding: 0.35em .25em;
+    margin-top: 3.125em;
+    border-color: #1890ff;
+    box-shadow: none;
+    color: aliceblue;
+    border: none;
+    width: 10em;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+.registro:hover {
+    cursor: pointer;
+    background: linear-gradient(#ffffff34,#ffffff49), #1890ff;
+    transition-property: background;
+    transition-duration: 2s;
+}

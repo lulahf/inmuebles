@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+.caratula {
+    background: linear-gradient(#eeebebc4,#64748b9f),url("https://img.freepik.com/fotos-premium/moderna-sala-blanca-chimenea_244125-173.jpg?w=2000");
+    padding: 3em 7em;
+    height: 50vh;
+    
+    background-size: 100% 100%;
+
+}
+.contenedor {
+    display: flex;
+    
+}
+.word {
+    margin-top: 5em;
+    padding: 1em;
+    font-size: 1.2em;
+}
+.carroCaratula {
+    max-width: 100%;
+    border-radius: 50%;
+    height: 25em;
+    width: 25em;
+    margin: 2em;
+}
+.span {
+    margin-right: 1em;
+}
+.registro {
+    background-color: #1677ff;
+    border-radius: 1.3em;
+    padding: 0.35em 1.25em;
+    margin-top: 1.125em;
+    border-color: #1677ff;
+    box-shadow: none;
+    color: aliceblue;
+    border: none;
+    width: 15em;
+    font-size: 1em;
+    height: 2.2em;
+    width: 10em;
+    display: block;
+}
+.registro:hover {
+    cursor: pointer;
+    background: linear-gradient(#ffffff34,#ffffff49), #1890ff;
+    transition-property: background;
+    transition-duration: 2s;
+}
+@media (min-width: 120em) {
+    .caratula {
+        font-size: 20px;
+    }
+        .content {
+            font-size: 20px;
+    }
+}
+@media (max-width: 90em) {
+    .caratula {
+        font-size: 14px;
+    }
+    .carroCaratula{
+        display: block;
+    }
+        .content {
+            font-size: 14px;
+    }
+}
+@media (max-width:  75em) {
+    .caratula {
+        font-size: 12px;
+    }
+        .content {
+            font-size: 12px;
+    }
+}

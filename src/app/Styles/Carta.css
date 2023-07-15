@@ -1,0 +1,70 @@
+.info {
+    padding: 1em;
+}
+h5 {
+    margin-bottom: 0.5em;
+    color: rgba(0, 0, 0, 0.88);
+    font-weight: 600;
+    line-height: 1.5;
+}
+.imagen {
+    max-width: 100%;
+    border-radius: .5em .5em 0 0;
+    height: 15em;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.carta {
+    width:20em;
+    background: transparent;
+    border-radius: 0 0 .5em .5em;
+    text-align: start;
+    height: 25em;
+    line-height: 1.2;
+    transition: 0.4s;
+    
+    
+
+}
+.carta:hover {
+    cursor: pointer;
+}
+.contentCarta {
+    
+    padding: 2em;
+  
+}
+.contentCartica {
+    background:linear-gradient(#dce0e6c7,#dce0e6ec,#dfe3e9f1),#64748b;
+    font-family: Playfair Display,serif;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.carta:hover {
+    background: #ffffff;
+    border-radius: .5em .5em 0 0;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em 0.5em .5em .5em;
+
+}
+@media (min-width: 120em) {
+
+        .contentCarta {
+            font-size: 18px;
+    }
+}
+@media (max-width: 90em) {
+
+        .contentCarta {
+            font-size: 16px;
+    }
+}
+@media (max-width:  75em) {
+
+        .contentCarta    {
+            font-size: 14px;
+    }
+}
